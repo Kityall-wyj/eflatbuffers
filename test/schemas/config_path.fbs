@@ -1,0 +1,12 @@
+
+table Technology {
+  category:string;
+}
+
+table TechnologiesRoot
+{
+  technologies:[Technology];
+}
+
+root_type TechnologiesRoot;
+file_identifier "BBBB";

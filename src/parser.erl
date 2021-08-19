@@ -14,7 +14,7 @@
 
 parse_schema(SchemaStr) ->
 	SchemaStr1 = binary_to_list(SchemaStr),
-	List = string:lexemes(SchemaStr1, [[$\r, $\n] |"\t:; "]),
+	List = string:lexemes(SchemaStr1, [[$\r, $\n] |"\t\n,:; "]),
 	try do_parse(List, #{}, #{}, [], [], [])
 	catch throw : Error -> Error
 	end.

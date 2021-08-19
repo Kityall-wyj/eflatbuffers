@@ -6,7 +6,7 @@
 %%% @end
 %%% Created : 22. 7月 2021 17:39
 %%%-------------------------------------------------------------------
--module(flatbuffers).
+-module(eflatbuffers).
 -author("kityall_wyj").
 
 -export([write/2, read/2]).

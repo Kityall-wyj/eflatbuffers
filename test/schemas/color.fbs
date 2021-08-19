@@ -1,0 +1,11 @@
+table Root {
+  foreground:Color;
+  background:Color;
+}
+
+table Color {
+  red:   ubyte;
+  green: ubyte;
+  blue:  ubyte;
+}
+root_type Root;
