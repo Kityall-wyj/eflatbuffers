@@ -8,7 +8,7 @@ Build
     $ rebar3 compile
 
 
-This is a [flatbuffers](https://google.github.io/flatbuffers/) implementation in Erlang.
+This is a [flatbuffers](https://google.github.io/flatbuffers/) implementation in Erlang, which consulted the [Eflatbuffers](https://github.com/wooga/eflatbuffers) in Elixir.
 
 In contrast to existing implementations there is no need to compile code from a schema. Instead, data and schemas are processed dynamically at runtime, offering greater flexibility.
 
