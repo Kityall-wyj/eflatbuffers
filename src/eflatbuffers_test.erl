@@ -6,7 +6,7 @@
 %%% @end
 %%% Created : 17. 8月 2021 11:24
 %%%-------------------------------------------------------------------
--module(test).
+-module(eflatbuffers_test).
 -author("kityall_wyj").
 
 %% API
